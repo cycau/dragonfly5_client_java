@@ -1,0 +1,4 @@
+# JitPack のデフォルトは Java 8 のため、パターンマッチング instance of 等（Java 16+）でビルドが失敗する。
+# pom の release 21 と揃える。
+jdk:
+  - openjdk21
