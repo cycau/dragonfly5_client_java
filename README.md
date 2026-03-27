@@ -11,7 +11,7 @@ Dragonfly5 サーバーに HTTP 経由で接続し、RDB 操作（Query / Execut
 ## ライブラリとして取り込む
 
 ソース: [github.com/cycau/dragonfly5_client_java](https://github.com/cycau/dragonfly5_client_java)  
-配布: [JitPack](https://jitpack.io/)（タグ **`v1.0.0`**）。ビルド状況は [JitPack の当該ページ](https://jitpack.io/#cycau/dragonfly5_client_java/v1.0.0) で確認できる。
+配布: [JitPack](https://jitpack.io/)（タグ **`1.0.0`**）。ビルド状況は [JitPack の当該ページ](https://jitpack.io/#cycau/dragonfly5_client_java/1.0.0) で確認できる。
 
 ### Maven（`pom.xml`）
 
@@ -26,7 +26,7 @@ Dragonfly5 サーバーに HTTP 経由で接続し、RDB 操作（Query / Execut
 <dependency>
   <groupId>com.github.cycau</groupId>
   <artifactId>dragonfly5_client_java</artifactId>
-  <version>v1.0.0</version>
+  <version>1.0.0</version>
 </dependency>
 ```
 
@@ -37,7 +37,7 @@ repositories {
     maven("https://jitpack.io")
 }
 dependencies {
-    implementation("com.github.cycau:dragonfly5_client_java:v1.0.0")
+    implementation("com.github.cycau:dragonfly5_client_java:1.0.0")
 }
 ```
 
@@ -48,7 +48,7 @@ repositories {
     maven { url 'https://jitpack.io' }
 }
 dependencies {
-    implementation 'com.github.cycau:dragonfly5_client_java:v1.0.0'
+    implementation 'com.github.cycau:dragonfly5_client_java:1.0.0'
 }
 ```
 
