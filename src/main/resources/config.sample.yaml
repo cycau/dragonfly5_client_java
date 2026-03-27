@@ -1,0 +1,7 @@
+maxConcurrency: 10
+defaultSecretKey: "secret-key"
+defaultDatabase: "crm-system"
+
+clusterNodes:
+  - baseUrl: "http://localhost:5678"
+    secretKey: "secret-key"
